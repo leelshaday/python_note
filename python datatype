@@ -1,0 +1,83 @@
+Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+Following are the standard or built-in data type of Python:
+
+Numeric
+Sequence Type
+Boolean
+Set
+Dictionary
+
+Numeric
+In Python, numeric data type represent the data which has numeric value. Numeric value can be integer, floating number or even complex numbers.
+These values are defined as int, float and complex class in Python.
+
+Integers – This value is represented by int class. It contains positive or negative whole numbers (without fraction or decimal). 
+In Python there is no limit to how long an integer value can be.
+Float – This value is represented by float class. It is a real number with floating point representation. It is specified by a decimal point. 
+Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation.
+Complex Numbers – Complex number is represented by complex class. It is specified as (real part) + (imaginary part)j. For example – 2+3j
+Note – type() function is used to determine the type of data type.
+
+
+Sequence Type
+In Python, sequence is the ordered collection of similar or different data types. Sequences allows to store multiple values in an organized and efficient fashion. 
+There are several sequence types in Python –
+
+String
+List
+Tuple
+1) String
+In Python, Strings are arrays of bytes representing Unicode characters. A string is a collection of one or more characters put in a single quote,
+double-quote or triple quote. In python there is no character data type, a character is a string of length one. It is represented by str class.
+ 
+
+Creating String
+Strings in Python can be created using single quotes or double quotes or even triple quotes.
+
+2) List
+Lists are just like the arrays, declared in other languages which is a ordered collection of data. It is very flexible as the items in a list do not need 
+to be of the same type.
+ 
+
+Creating List
+Lists in Python can be created by just placing the sequence inside the square brackets[].
+
+3) Tuple
+Just like list, tuple is also an ordered collection of Python objects. The only difference between tuple and list is that tuples are immutable 
+i.e. tuples cannot be modified after it is created. It is represented by tuple class.
+ 
+
+Creating Tuple
+In Python, tuples are created by placing a sequence of values separated by ‘comma’ with or without the use of parentheses for grouping of the data sequence. 
+Tuples can contain any number of elements and of any datatype (like strings, integers, list, etc.).
+
+Note: Tuples can also be created with a single element, but it is a bit tricky. Having one element in the parentheses is not sufficient, there must be a trailing 
+‘comma’ to make it a tuple.
+
+Boolean
+Data type with one of the two built-in values, True or False. Boolean objects that are equal to True are truthy (true), 
+and those equal to False are falsy (false). But non-Boolean objects can be evaluated in Boolean context as well and determined to be true or false.
+It is denoted by the class bool.
+
+Note – True and False with capital ‘T’ and ‘F’ are valid booleans otherwise python will throw an error.
+
+Set
+In Python, Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements. The order of elements in a set is undefined though
+it may consist of various elements.
+
+Creating Sets
+Sets can be created by using the built-in set() function with an iterable object or a sequence by placing the sequence inside curly braces, separated by ‘comma’. 
+
+Dictionary
+Dictionary in Python is an unordered collection of data values, used to store data values like a map, which unlike other Data Types that hold only single value
+as an element, Dictionary holds key:value pair. Key-value is provided in the dictionary to make it more optimized. Each key-value pair in a Dictionary is separated
+by a colon :, whereas each key is separated by a ‘comma’.
+
+Creating Dictionary
+In Python, a Dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’. Values in a dictionary can be of any
+datatype and can be duplicated, whereas keys can’t be repeated and must be immutable. Dictionary can also be created by the built-in function dict(). 
+An empty dictionary can be created by just placing it to curly braces{}.
+
+Note – Dictionary keys are case sensitive, same name but different cases of Key will be treated distinctly.
+Type of elements in a set need not be the same, various mixed-up data type values can also be passed to the set.
